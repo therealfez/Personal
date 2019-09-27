@@ -1,49 +1,78 @@
 <!DOCTYPE html>
+<html lang="en-us">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Fauz Ahmed</title>
-    <body>
-        <h1>Student Bio</h1>
-        <h2>Fauz Ahmed</h2>
-        
-        <div>
-            <img width="200px" length="200px" src="https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/54393314_10155293679437185_2155956853970829312_o.jpg?_nc_cat=111&_nc_oc=AQk4Tt5zYb4LRE6xuoP-63wjZm27F_KEMUXsGL-oWW2wqnowQRBEyX0RA7EDhPKSJIM&_nc_ht=scontent-dfw5-2.xx&oh=2de79b6dee63e16c6c98ab6b2c7e6ef0&oe=5E113FDC"
-            alt="Fauz Ahmed">
-        </div>
 
-    <section>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum turpis iaculis, viverra elit non, maximus nisl. Fusce gravida viverra ligula et consequat. Etiam hendrerit nec neque vitae varius. Aliquam accumsan, metus a suscipit eleifend, dolor tortor vestibulum nibh, quis tincidunt sapien erat nec odio. Suspendisse viverra facilisis diam, ut porta mauris fringilla vitae. Integer pretium turpis quis purus cursus, ac pulvinar purus tincidunt. In lobortis orci in imperdiet bibendum. Aliquam finibus sapien eros, eget congue dolor ultrices sed. Morbi nisi lorem, lobortis eget sem a, scelerisque gravida nibh. Integer eget sagittis ipsum, vel interdum tellus. Sed vel tellus tellus. Cras porttitor, purus et convallis condimentum, risus eros tempus nunc, a dictum eros magna sed ligula. 
-            <br>
-            Nam ac purus bibendum, interdum lectus id, auctor enim. Praesent et massa sodales, feugiat quam at, molestie arcu. Nunc iaculis aliquam dapibus. Maecenas lacinia interdum ultrices. Donec enim arcu, efficitur nec erat ut, fermentum dictum metus. Sed porttitor suscipit ipsum, eget laoreet metus placerat eu. Sed et molestie nisl. Donec tincidunt erat non dolor aliquam, sit amet malesuada elit varius. Nam ac ipsum vel quam faucibus gravida vitae sed neque. Fusce tincidunt tortor ac magna pretium blandit.
-        </p>
-    </section>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-        <section>
-        <h2>Contact Info</h2>
+  <title>Fauz Ahmed</title>
 
-        <ul>
-            <li>
-                <strong>Email: </strong>
-                <a href= mailto:fauz.ahmed369@gmail.com>
-                fauz.ahmed369@gmail.com</a>
-            </li>
-
-            <li>
-                <Strong>Github: </Strong>
-                <a href="https://github.com/therealfez" target="_blank">therealfez
-                </a>
-            </li>
-            
-            <li>
-                <strong>Portfolio: </strong>
-                <a href="#">Coming Soon</a>
-            </li>
-        </section>
-        </ul>
-
-
-    </body>
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="assets/css/lux.css">
+  <link rel="stylesheet" href="assets/css/styles.css" media="screen">
 
 </head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <a class="navbar-brand" href="index.html" id="logo">Fauz Ahmed</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
+
+  <main class="container">
+    <section class="row">
+      <div class="col-md-8">
+        <article class="block">
+          <h1 class="block-header">About Me</h1>
+          <hr />
+          <img src="assets/images/fauz-ahmed.jpg" alt="" id="about-image" />
+          <p>I'm Fauz Ahmed, a Texan with a hint of Canada. Austin has been my home for the last 4 years and I love every second of it. I am a proud dog dad of Lady, who is a mix of German Shepard and Labrador. I am currently taking my certificate in full-stack development at the University of Texas at Austin.
+          </p>
+          <br />
+          <p>I am passionate about coding, learning new skills and growth, and understanding the impact of technology in business and consumers. I hope to take on the role of a full stack developer. My unique background in human relations, technology, and science has prepared me to conquer the task ahead.
+          </p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="two-toned-footer-color"></div>
+    <p class="text-muted text-muted-footer text-center">
+      &copy; Copyright 2019 Fauz Ahmed
+    </p>
+  </footer>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+</body>
+
+</html>

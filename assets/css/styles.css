@@ -1,7 +1,7 @@
 body {
-  background-image: url("../images/constellations-background.jpg");
+  background-image: url('../images/constellations-background.jpg');
 
-color: white;
+  color: white;
 }
 
 a {
@@ -13,13 +13,15 @@ a:hover {
 }
 
 .col-md-8 {
-  background-color: rgba(11, 16,24,.90);
+  background-color: rgba(11, 16, 24, 0.9);
 }
 
 h1 {
   color: white;
-  background-color: rgba(11, 16,24, .80);
-
+  background-color: rgba(11, 16, 24, 0.8);
+}
+h3 {
+  color: whitesmoke;
 }
 p {
   font-size: 16px;
@@ -47,7 +49,6 @@ main {
 #logo {
   font-size: 24px;
   font-weight: bold;
-
 }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -56,14 +57,11 @@ main {
 
 .navbar {
   border: none;
-  background-color: rgba(11, 16,24, .90);
-
+  background-color: rgba(11, 16, 24, 0.9);
 }
 
 @media only screen and (max-width: 767px) {
-
 }
-
 
 .connect-header {
   font-size: 25px;
@@ -80,7 +78,6 @@ main {
   text-align: center;
 }
 
-
 .footer {
   position: absolute;
   bottom: 0;
@@ -91,13 +88,11 @@ main {
 
 .text-muted-footer {
   margin-top: 15px;
-
 }
 
 .two-toned-footer-color {
   height: 6px;
   padding-top: 3px;
-
 }
 
 .about-me-header {
@@ -117,7 +112,6 @@ main {
   margin: 20px auto;
 }
 
-
 .form-control {
   border-radius: 0;
 
@@ -134,5 +128,5 @@ main {
 }
 
 .submit-btn:hover {
-  opacity: .7;
+  opacity: 0.7;
 }
